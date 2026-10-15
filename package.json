@@ -1,0 +1,29 @@
+{
+  "name": "learn-bun",
+  "version": "1.0.0",
+  "description": "Production-grade Bun runtime reference implementation with Bun.serve, bun:sqlite, and WebSockets",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "bun",
+    "javascriptcore",
+    "zig",
+    "sqlite",
+    "websockets",
+    "typescript",
+    "high-performance"
+  ],
+  "author": "The Learning Hub",
+  "license": "MIT"
+}
